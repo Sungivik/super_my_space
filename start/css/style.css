@@ -64,7 +64,6 @@ body{
     
     background-repeat: no-repeat;
     background-position: 0px 10px center;
-    animation: anim_trans 5s forwards;
     background-size:cover;
     
     
@@ -198,15 +197,7 @@ body{
     }
 }
 
-@keyframes anim_trans{
-    0% {
-        background-size:100%;
-    }
- 
-    100% {
-        background-size: 101%;
-    }
-}
+
 
 .header__description-text + .header__description-text{
     margin-left: 52px;
